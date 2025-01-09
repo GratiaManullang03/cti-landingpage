@@ -1,0 +1,101 @@
+.advantages-section {
+    padding: 80px 0;
+    background: linear-gradient(
+            135deg,
+            hsl(210, 100%, 20%, 0.75) 0%,
+            hsl(150, 100%, 20%, 0.75) 100%
+        ),
+        url("https://static.vecteezy.com/system/resources/previews/006/907/006/non_2x/global-network-security-concept-cyber-safety-key-closed-padlock-on-abstract-motherboard-circuit-digital-background-internet-technology-free-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.advantages-row {
+    padding: 0 150px 0 150px;
+}
+
+.section-title {
+    text-align: center;
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.advantage-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+}
+
+.advantage-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.advantage-icon {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.advantage-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.advantage-card h3 {
+    color: #003366;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.advantage-card p {
+    color: #4a4a4a;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 991.98px) {
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .advantage-card {
+        padding: 25px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .advantages-section {
+        padding: 60px 0;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+        margin-bottom: 30px;
+    }
+
+    .advantage-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .advantage-card h3 {
+        font-size: 1.3rem;
+    }
+}
